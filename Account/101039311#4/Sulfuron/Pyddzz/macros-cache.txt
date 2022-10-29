@@ -1,0 +1,85 @@
+VER 3 0000000001000011 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Rebirth
+/use [@mouseover,exists][@target,exists]Rebirth
+END
+VER 3 0000000001000010 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Healing Touch
+END
+VER 3 000000000100000F " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Regrowth
+END
+VER 3 000000000100000E " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Rejuvenation
+END
+VER 3 000000000100000D " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Remove Curse
+END
+VER 3 000000000100000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Abolish Poison
+END
+VER 3 000000000100000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Innervate
+END
+VER 3 0000000001000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]mark of the wild
+END
+VER 3 000000000100000A "aoe" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [form:1] Swipe;Hurricane
+END
+VER 3 0000000001000006 "cancelform" "Ability_Mount_WhiteDireWolf."
+/cancelform
+END
+VER 3 0000000001000009 "charge" "INV_MISC_QUESTIONMARK"
+#showtooltip Feral Charge
+/cancelform [noform:1]
+/cast [noform:1] Dire Bear Form
+/cast Feral Charge
+END
+VER 3 0000000001000004 "dash" "INV_MISC_QUESTIONMARK"
+#showtooltip Dash
+/cast [noform:3] Cat Form
+/cast !Dash
+END
+VER 3 0000000001000005 "FF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nomod,stance:1] Faerie Fire (Feral)
+/cast [nomod,stance:3] Faerie Fire (Feral)
+/cast Faerie Fire
+END
+VER 3 0000000001000003 "mangle" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [stance:1] Mangle (Bear)
+/cast [stance:3] Mangle (Cat)
+/cast [nostance] Dire bear form
+/cast [stance:2] Dire bear form
+/cast [stance:4] Dire bear form
+/use 13
+/use 14
+END
+VER 3 0000000001000001 "rake" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [noform:3]Cat Form;[nostealth] Rake; [stealth] Pounce
+END
+VER 3 0000000001000007 "shred" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stealth] Ravage; [nostealth] Shred
+END
+VER 3 0000000001000002 "stealth" "INV_MISC_QUESTIONMARK"
+#showtooltip Prowl
+/cancelform [noform:3]
+/cast [noform:3] Cat Form
+/cast !Prowl
+END
+VER 3 0000000001000008 "taunt" "INV_MISC_QUESTIONMARK"
+#showtooltip Growl
+/cast [noform:1] Dire Bear Form(Shapeshift)
+/cast !Growl
+END

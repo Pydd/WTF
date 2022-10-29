@@ -1,0 +1,77 @@
+
+ItemRackUser = {
+	["ButtonSpacing"] = 4,
+	["QueuesEnabled"] = {
+	},
+	["Locked"] = "OFF",
+	["MainScale"] = 0.885936975479126,
+	["SetMenuWrapValue"] = 3,
+	["SetMenuWrap"] = "OFF",
+	["Sets"] = {
+		["~CombatQueue"] = {
+			["equip"] = {
+			},
+			["Queues"] = {
+				[12] = {
+				},
+			},
+		},
+		["~Unequip"] = {
+			["equip"] = {
+			},
+			["Queues"] = {
+				[12] = {
+				},
+			},
+		},
+	},
+	["EnableQueues"] = "ON",
+	["Queues"] = {
+		[12] = {
+			"29169::::::::70::::::::", -- [1]
+			"29289::::::::70::::::::", -- [2]
+			0, -- [3]
+		},
+	},
+	["Buttons"] = {
+		{
+			["DockTo"] = 15,
+			["Side"] = "LEFT",
+		}, -- [1]
+		[13] = {
+			["Side"] = "RIGHT",
+			["DockTo"] = 14,
+		},
+		[15] = {
+			["DockTo"] = 18,
+			["Side"] = "LEFT",
+		},
+		[18] = {
+			["DockTo"] = 16,
+			["Side"] = "LEFT",
+		},
+		[14] = {
+			["Top"] = 403.280029296875,
+			["Left"] = 61.82476043701172,
+		},
+		[16] = {
+			["DockTo"] = 14,
+			["Side"] = "LEFT",
+		},
+	},
+	["ItemsUsed"] = {
+	},
+	["Events"] = {
+		["Enabled"] = {
+		},
+		["Set"] = {
+		},
+	},
+	["EnableEvents"] = "OFF",
+	["Hidden"] = {
+		"30841::::::::70::::::::", -- [1]
+	},
+	["Alpha"] = 1,
+	["MenuScale"] = 0.85,
+	["EnablePerSetQueues"] = "OFF",
+}

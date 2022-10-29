@@ -1,0 +1,18 @@
+VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Charge
+/cast [stance:2/3] Battle Stance
+/cast [stance:1] Charge
+END
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+/run if GetRaidTargetIndex("target")~=8 then SetRaidTarget("target",8)end
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Throw
+/run if GetRaidTargetIndex("target")~=8 then SetRaidTarget("target",8)end
+END
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Taunt
+/cast [stance:1/3] Defensive Stance
+/cast [stance:2] Taunt
+END

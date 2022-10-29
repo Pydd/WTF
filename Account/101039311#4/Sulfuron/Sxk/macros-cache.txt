@@ -1,0 +1,33 @@
+VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:0] gouge;sap
+END
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:0] rupture;garrote
+END
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:0] kidney shot;cheap shot
+END
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:0] backstab;ambush
+END
+VER 3 0000000001000008 " " "INV_MISC_QUESTIONMARK"
+/cleartarget
+/targetenemy 
+/use sap
+END
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Pick pocket
+/use [@mouseover,harm,nodead][@target]Pick Pocket
+END
+VER 3 0000000001000003 "fol" "Ability_Hunter_BeastCall."
+/w Pyddo zzf
+END
+VER 3 0000000001000001 "SS" "INV_MISC_QUESTIONMARK"
+#showtooltip Sinister Strike
+/cast Sinister Strike
+/startattack
+END

@@ -1,0 +1,25 @@
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use fireball
+END
+VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [flyable]Ebon Gryphon ; Swift White Mechanostrider
+END
+VER 3 0000000001000005 "bli rank 1" "INV_MISC_QUESTIONMARK"
+/use [@cursor] Blizzard(rank 1)
+END
+VER 3 0000000001000002 "fb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Frostbolt
+/petattack
+END
+VER 3 0000000001000004 "freeze" "INV_MISC_QUESTIONMARK"
+/use [@cursor] Freeze
+END
+VER 3 0000000001000003 "icy veins" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use icy veins
+/use 13
+/use 14
+END

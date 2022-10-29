@@ -1,0 +1,40 @@
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help,nodead][@target,exists,help,nodead][@player]Flash Heal
+END
+VER 3 0000000001000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help,nodead][@target,exists,help,nodead][@player] power word: shield
+END
+VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help,nodead][@target,exists,help,nodead][@player] Renew
+END
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help,nodead][@target,exists,help,nodead][@player]Greater Heal
+END
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help,nodead][@target,exists,help,nodead][@player]Prayer of Healing
+END
+VER 3 0000000001000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help,nodead][@target,exists,help,nodead][@player]Dispel magic
+END
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help,nodead][@target,exists,help,nodead][@player] Abolish Disease
+END
+VER 3 0000000001000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help,nodead][@target,exists,help,nodead][@player]Power Word: Fortitude
+END
+VER 3 000000000100000A " " "Ability_Hunter_BeastCall."
+/follow Sxk
+/target Sxk
+/focus
+END
+VER 3 0000000001000001 "follow key" "INV_MISC_QUESTIONMARK"
+/follow Pydd
+END

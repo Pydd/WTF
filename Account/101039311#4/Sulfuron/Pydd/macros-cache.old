@@ -1,0 +1,21 @@
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Divine Shield
+/stopcasting
+/use Divine Shield
+END
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Shock
+/use [@mouseover,exists][@target,exists][@player]Holy Shock
+END
+VER 3 0000000001000004 "AW" "INV_MISC_QUESTIONMARK"
+/cast Avenging Wrath
+/use Icon of the Silver Crescent
+END
+VER 3 0000000001000005 "cons" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Consecration
+/startattack
+END
+VER 3 0000000001000003 "Fol mage" "INV_MISC_QUESTIONMARK"
+/use [@focus] Flash of Light
+END

@@ -1,0 +1,39 @@
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [flyable] Swift Purple Gryphon ;Swift Brown Steed
+END
+VER 3 0000000001000001 "agony" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Curse of Agony
+/petattack
+END
+VER 3 0000000001000004 "dispell" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Devour Magic
+END
+VER 3 0000000001000006 "immo" "INV_MISC_QUESTIONMARK"
+#showtooltip Immolate
+/use 13
+/use 14
+/petattack
+/use Immolate
+END
+VER 3 0000000001000003 "kick" "INV_MISC_QUESTIONMARK"
+/use Spell Lock
+END
+VER 3 0000000001000008 "sb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use shadow bolt
+/petattack
+END
+VER 3 0000000001000002 "SD" "INV_MISC_QUESTIONMARK"
+/cast Drain Soul(Rank 1) 
+/run local a=GetBagName(4); if a=="Core Felcloth Bag" or a=="Felcloth Bag" or a=="Soul Pouch" or a=="Box of Souls" or a=="Small Soul Pouch" then PickupContainerItem(4,GetContainerNumSlots(4)) DeleteCursorItem() else end
+END
+VER 3 0000000001000005 "UA" "INV_MISC_QUESTIONMARK"
+#showtooltip Unstable Affliction
+/use 13
+/use 14
+/petattack
+/use Unstable Affliction
+END

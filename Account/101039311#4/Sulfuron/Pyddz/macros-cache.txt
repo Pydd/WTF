@@ -1,0 +1,83 @@
+VER 3 0000000001000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [@mouseover,help,exists][@target,exists,help] Healing wave ; [@target,harm,nodead] Lightning Bolt ; [@player] Healing wave
+END
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Lesser Healing wave
+END
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [@mouseover,help,exists][@target,exists,help] chain heal ; [@target,harm,nodead] Chain Lightning ; [@player] chain heal
+END
+VER 3 000000000100000C "CH 3" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [@mouseover,help,exists][@target,exists,help] [@player
+/cast Chain Heal(Rank 3)
+ 
+END
+VER 3 000000000100000E "CH3 dps" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [@mouseover,help,exists][@target,exists,help] Chain Heal(Rank 3) ; [@target,harm,nodead] Earth Shock; [@player] Chain Heal(Rank 3)
+END
+VER 3 000000000100000F "disease" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [@mouseover,help,exists]Cure Disease;Disease Cleansing Totem
+ 
+END
+VER 3 0000000001000011 "drum" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast Drums of Battle
+END
+VER 3 000000000100000A "ES" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists,help,nodead]Earth Shield ;Water Shield
+END
+VER 3 000000000100000D "H7 dps" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [@mouseover,help,exists][@target,exists,help] Healing wave(Rank 7) ; [@target,harm,nodead] Flame Shock ; [@player] Healing wave(Rank 7)
+END
+VER 3 0000000001000001 "HW12" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Healing wave
+END
+VER 3 000000000100000B "HW7" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [@mouseover,help,exists][@target,exists,help]  [@player
+/cast Healing Wave(Rank 7)
+ 
+END
+VER 3 0000000001000008 "kick" "INV_MISC_QUESTIONMARK"
+#showtooltip Earth Shock
+/stopcasting
+/cast Earth Shock(rank 1)
+END
+VER 3 0000000001000010 "poison" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [@mouseover,help,exists]Cure Poison;Poison Cleansing Totem
+ 
+END
+VER 3 0000000001000015 "SS" "INV_MISC_QUESTIONMARK"
+#showtooltip Stormstrike
+/startattack
+/cast Stormstrike
+/use The Decapitator
+END
+VER 3 0000000001000014 "sync" "INV_Mace_15."
+/cleartarget
+/targetlasttarget
+/startattack
+END
+VER 3 0000000001000009 "TT Cast" "INV_MISC_QUESTIONMARK"
+#showtooltips
+/castsequence reset=combat/10 Nature Resistance Totem(Rank 4), Strength of Earth Totem(Rank 6), Mana Spring Totem(Rank 5), Searing Totem(Rank 7)
+END
+VER 3 0000000001000012 "twist" "INV_MISC_QUESTIONMARK"
+/castsequence Windfury Totem, Grace of Air Totem
+END
+VER 3 0000000001000013 "use both" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+/use 14
+END

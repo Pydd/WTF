@@ -1,0 +1,136 @@
+VER 3 0000000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Hand of Protection
+END
+VER 3 0000000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Purify
+END
+VER 3 000000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Flash of Light
+END
+VER 3 0000000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]hand of Freedom
+END
+VER 3 0000000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Holy Light
+END
+VER 3 000000000000000D " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]hand of salvation
+END
+VER 3 0000000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Judgement of wisdom
+/cast Judgement of wisdom
+/startattack
+END
+VER 3 0000000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Lay on hands
+END
+VER 3 0000000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Blessing of Might
+END
+VER 3 000000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Redemption
+END
+VER 3 0000000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Blessing of wisdom
+END
+VER 3 000000000000000E " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]divine intervention
+END
+VER 3 000000000000000F " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]hand of Sacrifice
+END
+VER 3 0000000000000011 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Judgement
+/stopcasting
+/cast Seal of Command
+END
+VER 3 0000000000000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Cleanse
+END
+VER 3 0000000000000020 " " "INV_MISC_QUESTIONMARK"
+/use [stance:3] Crusader Aura
+/use [stance:7] Concentration Aura
+/use Devotion Aura
+END
+VER 3 0000000000000032 " " "Ability_Hunter_BeastCall."
+/inv Pyddz
+END
+VER 3 0000000000000031 " " "Ability_Hunter_BeastCall02."
+/kick Pyddz
+END
+VER 3 0000000000000012 " wis" "INV_MISC_QUESTIONMARK"
+#showtooltip seal of wisdom
+/cast Judgement
+/stopcasting
+/startattack
+/cast Seal of Wisdom
+END
+VER 3 000000000000002C "cloak" "135992"
+/use 15
+END
+VER 3 000000000000002E "gloves" "Spell_Fire_PlayingWithFire."
+/use 10
+END
+VER 3 000000000000002B "im" "ability_mage_conjurewater11."
+.race 7
+.item 1 22428
+.item 3 22429
+.item 5 22425
+.item 10 22426
+.item 7 22427
+.item 8 22430
+.item 16 19353
+.gender 2
+.mount 31007
+END
+VER 3 0000000000000018 "mouture" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [flyable] Swift Blue Gryphon; Summon charger
+END
+VER 3 000000000000002D "nitro" "Spell_Fire_BurningSpeed."
+/use 8
+END
+VER 3 000000000000002A "pet stop" "ABILITY_SAP."
+/petfollow
+END
+VER 3 0000000000000029 "petattack" "Ability_Hunter_Pet_Cat."
+/petattack
+END
+VER 3 000000000000001B "pull" "132352"
+/pull 10
+END
+VER 3 0000000000000030 "QQI_MACRO" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use Lafoo's Bug Bag
+END
+VER 3 000000000000002F "quest" "Ability_Hunter_BeastCall."
+/run ObjectiveTrackerBlocksFrame.currentBlock.itemButton:Click()
+END
+VER 3 000000000000001A "rc" "132351"
+/readycheck
+END
+VER 3 0000000000000015 "target auct" "Ability_Hunter_BeastCall."
+/tar Auctioneer Jaxon
+END
+VER 3 0000000000000016 "trinket 1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+END
+VER 3 0000000000000017 "trinket 2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 14
+END

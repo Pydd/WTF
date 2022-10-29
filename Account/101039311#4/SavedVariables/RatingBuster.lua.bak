@@ -1,0 +1,40 @@
+
+RatingBusterDB = {
+	["profileKeys"] = {
+		["Xkz - Thekal"] = "PRIEST",
+		["Pyddzanito - Thekal"] = "WARRIOR",
+		["Zhz - Sulfuron"] = "profile",
+		["Pydd - Sulfuron"] = "profile",
+		["Pyddz - Sulfuron"] = "profile",
+		["Shx - Sulfuron"] = "profile",
+		["Pydd - Thekal"] = "PALADIN",
+		["Pyddzer - Sulfuron"] = "profile",
+		["Pyddzz - Sulfuron"] = "profile",
+		["Pyddo - Sulfuron"] = "profile",
+		["Pyddbank - Sulfuron"] = "profile",
+		["Kahlãn - Sulfuron"] = "profile",
+		["Sxk - Sulfuron"] = "profile",
+		["Pyddz - Thekal"] = "WARLOCK",
+		["Shamygentil - Thekal"] = "SHAMAN",
+		["Pyddzer - Thekal"] = "WARRIOR",
+		["Pyddzo - Thekal"] = "PRIEST",
+	},
+	["global"] = {
+		["showItemLevel"] = true,
+	},
+	["profiles"] = {
+		["profile"] = {
+			["showSum"] = false,
+		},
+		["WARRIOR"] = {
+		},
+		["WARLOCK"] = {
+		},
+		["PALADIN"] = {
+		},
+		["SHAMAN"] = {
+		},
+		["PRIEST"] = {
+		},
+	},
+}

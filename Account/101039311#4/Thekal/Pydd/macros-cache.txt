@@ -1,0 +1,67 @@
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Swift Blue Gryphon
+/cast [nomounted] Swift Blue Gryphon
+/cast [nomounted] Charger
+/dismount [mounted]
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cleartarget
+/tar un
+/cast Hand of Reckoning
+END
+VER 3 0000000001000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Avenging Wrath
+/use [combat] 10
+/use Empty Mug of Direbrew
+END
+VER 3 0000000001000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Beacon of Light
+END
+VER 3 0000000001000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Sacred shield
+END
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Holy Shock
+END
+VER 3 000000000100000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip Divine Illumination
+/cast Divine Illumination
+/use [combat] 10
+END
+VER 3 000000000100000C " " "INV_MISC_QUESTIONMARK"
+/castsequence Seal of Command, Blessing of Might
+END
+VER 3 000000000100000D " " "INV_MISC_QUESTIONMARK"
+/castsequence reset=5 Seal of Wisdom, Blessing of Wisdom
+END
+VER 3 000000000100000B " DP" "INV_MISC_QUESTIONMARK"
+#showtooltip Divine Plea
+/cancelaura Divine Plea
+END
+VER 3 0000000001000006 " T2" "spell_deathknight_subversion."
+.item 1 22514
+.item 3 22515
+.item 5 22512
+.item 9 22519
+.item 10 22517
+.item 6 22518
+.item 7 22513
+.item 8 22516
+.item 19 160544
+.item 16 28226
+.item 17 165583
+END
+VER 3 0000000001000005 "CS" "INV_MISC_QUESTIONMARK"
+#showtooltip Crusader Strike
+/startattack
+/use Crusader Strike
+/use [combat] 10
+END
+VER 3 0000000001000003 "follow" "Ability_Hunter_Pet_Cat."
+/follow Pyddz
+END

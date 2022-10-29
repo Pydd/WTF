@@ -1,0 +1,19 @@
+
+portalMageFrameX = nil
+portalMageFrameY = nil
+portalMageSpells = {
+	["undercity"] = true,
+	["shattrath"] = false,
+	["stonard"] = true,
+	["silvermoon"] = true,
+	["stormwind"] = true,
+	["orgrimmar"] = true,
+	["theramore"] = true,
+	["ironforge"] = true,
+	["thunderbluff"] = true,
+	["exodar"] = true,
+	["darnassus"] = true,
+}
+portalMageVertical = nil
+portalMageScale = nil
+portalMageRunes = nil

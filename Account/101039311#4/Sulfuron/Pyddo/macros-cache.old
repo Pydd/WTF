@@ -1,0 +1,7 @@
+VER 3 0000000001000002 "FH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Flash Heal
+END
+VER 3 0000000001000001 "follow key" "INV_MISC_QUESTIONMARK"
+/follow Pydd
+END

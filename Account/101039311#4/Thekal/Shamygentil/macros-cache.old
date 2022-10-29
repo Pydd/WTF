@@ -1,0 +1,13 @@
+VER 3 0000000001000004 " " "Ability_Hunter_BeastCall02."
+/kick Pyddz
+END
+VER 3 0000000001000003 " " "Ability_Hunter_BeastCall."
+/inv Pyddz
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/use [@mouseover,exists][@target,exists][@player]Healing Wave
+END
+VER 3 0000000001000002 "follow" "136047"
+/follow démorigolo
+END

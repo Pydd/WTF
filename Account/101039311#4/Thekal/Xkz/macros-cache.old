@@ -1,0 +1,48 @@
+VER 3 0000000001000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]renew
+END
+VER 3 0000000001000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip mind flay
+/use [@mouseover,exists,help,nodead][@target,help]Greater Heal ; Mind flay
+END
+VER 3 0000000001000006 " " "132538"
+.item 1 22514
+.item 3 22515
+.item 5 22512
+.item 9 22519
+.item 10 22517
+.item 6 22518
+.item 7 22513
+.item 8 22516
+.item 19 160544
+.item 16 28226
+.item 17 165583
+END
+VER 3 0000000001000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Power Word: shield
+END
+VER 3 0000000001000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]Lesser Heal
+END
+VER 3 0000000001000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip mind blast
+/use [@mouseover,exists,help,nodead][@target,help]Flash heal ; Mind blast
+END
+VER 3 0000000001000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip shadow word: pain
+/use [@mouseover,exists,help,nodead][@target,help] renew; shadow word: pain
+END
+VER 3 000000000100000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]levitate
+END
+VER 3 0000000001000003 " EXAMPLE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@mouseover,exists][@target,exists][@player]
+END
+VER 3 0000000001000004 "follow Ymg" "ability_druid_kingofthejungle."
+/follow ymg
+END
